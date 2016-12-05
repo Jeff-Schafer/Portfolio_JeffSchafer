@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+   <title>Assignment VI: Portfolio</title>
+<head>
+   <link rel="stylesheet" href="Portfolio.css"></link>
+   <link rel="stylesheet" href="jquery-ui_v1.12.1.css">
+   <link rel="stylesheet" href="jquery-ui-themes-1.12.1\themes\start\theme.css">
+   <script type="text/javascript" src="jQuery_v2.2.4.js"></script>
+   <script type="text/javascript" src="jquery-ui_v1.12.1.js"></script>
+
+   <script type="text/javascript">
+
+      <!--Start jQuery "ready" function-->
+      $(document).ready(function(){
+         // Accordion style witch between views.
+         $( function() {
+            $( "#accordion" ).accordion({
+               heightStyle: "content"
+            });
+         });
+
+         // Toggle between the 2 images.
+         $("#testImg").on("click", "#test", function() {
+            $(this).slideToggle();
+            $(this).siblings().slideToggle();
+         });
+      });
+      <!--End jQuery "ready" function-->
+
+   </script>
+   <style>
+   </style>
+</head>
+
+<body>
+
+   <!--Begin jQuery-->
+   <div id="wrapper">
+      <div id="info">
+         <h2 class="bold">Brief Personal Summary</h2>
+            I have been a Software Tester (STE) for 20 Years (1996 - 2016) & have had many contract assignments @ Microsoft since 2001.
+               <br>
+               <br>
+            Currently, I am taking the <font class="bold"><a target="_blank" href="http://www.campusce.net/BC/course/course.aspx?C=14583&mc=2103&pc=1820&_ga=1.89741659.1139418394.1478219311">Coding Dojo: MEAN Stack - Bootcamp</font></a> classes.
+         <br>
+         <br>
+            <a target="_blank" href="https://github.com"><img src="gitHubImage.png" id="gitHubImage" alt="picture" /></a>
+         <br>
+         <br>
+            <p id="testImg">
+               <img src="HTML-CSS-JS.png" id="test" alt="picture" />
+               <img src="JavaScript-Code.jpg" id="test" alt="picture" style="display:none" />
+            </p>
+      </div>
+
+      <!--Begin accordion-->
+      <div id="accordion">
+         <h3>Picture</h3>
+            <div id="Picture">
+               <img src="PUPPY.jpg" alt="picture" />
+            </div>
+         <h3>My Links</h3>
+            <div id="accordingSect">
+               <p><a target="_blank" href="https://github.com/Jeff-Schafer">My GitHub</a></p>
+               <p><a target="_blank" href="Résumé.doc">My Résumé</a> (Click to Download)</p>
+            </div>
+         <h3>Computer Languages</h3>
+            <div id="accordingSect">
+               <p>I have academic knowledge in these computer languages:</p>
+               <ul>
+                  <li> HTML
+                  <li> CSS
+                  <li> JavaScript
+                  <li> jQuery
+                  <li> C#
+                  <li> VB & VBScript (about 20 years ago)
+               </ul>
+            </div>
+         <h3>Education</h3>
+            <div id="accordingSect">
+               <ul>
+                  <li> <font class="bold">BS Degree in Business Admin (1988)</font> <br> @ Central Washington University
+                  <li> <font class="bold">AA Degree ~ Visual Basic (1996)</font> <br> @ Bellevue Community College
+                  <li> <font class="bold">A+, Network+ and MCP Certified</font> <br> @ Software Education of America
+                  <li> <font class="bold">Computer Classes</font> <br> @ Lake Washington Technical College
+                  <li> <font class="bold">Web Development</font> <br> @ Edmonds Community College
+                  <li> <font class="bold">Coding Dojo: MEAN Stack (2016)</font> <br> @ Bellevue College (formerly BCC)
+               </ul>
+            </div>
+      </div>
+      <!--End accordion-->
+
+   </div>
+   <!--End jQuery-->
+
+</body>
+</html>

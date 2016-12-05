@@ -1,0 +1,61 @@
+body {
+ background: linear-gradient(0deg, #A1C0FF 0%, #BAE1FF 25%, #A1C0FF 53%, #bae1ff 75%, #A1C0FF 100%);
+}
+bold {
+ font-weight: bold;
+}
+div {
+ vertical-align: top;
+ display: inline-block;
+ height: 90%;
+ width: 40%;
+ padding: 20px;
+ padding-top: 0px;
+ margin: 0px;
+}
+div#accordion {
+ height: 40%;
+ margin-left: 90px;
+}
+div#Picture {
+ height: 200px;
+ width: 397px;
+}
+div#accordingSect {
+ height: 100%;
+ width: 435px;
+ padding: 20px;
+ margin: 0px;
+}
+div#info {
+ margin-left: 4.25%;
+}
+div#wrapper {
+ height: 95%;
+ width: 95%;
+ display: block;
+ margin: auto;
+ padding: 0px;
+}
+font.bold {
+ font-weight: bold;
+}
+h2 {
+ margin: 0px;
+ padding: 0px;
+ padding-bottom: 20px;
+ font-size: 24px;
+ font-style: italic;
+ text-decoration: underline;
+}
+img {
+ display: block;
+ margin: auto;
+}
+img#gitHubImage {
+ height: 70px;
+ width: 179px;
+ margin: 0px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
