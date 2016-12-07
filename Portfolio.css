@@ -5,6 +5,7 @@ bold {
  font-weight: bold;
 }
 div {
+ box-sizing: border-box;
  vertical-align: top;
  display: inline-block;
  height: 90%;
@@ -18,12 +19,13 @@ div#accordion {
  margin-left: 90px;
 }
 div#Picture {
- height: 200px;
- width: 397px;
+ box-sizing: border-box;
+ height: 80%;
+ width: 100%;
 }
 div#accordingSect {
  height: 100%;
- width: 435px;
+ width: 100%;
  padding: 20px;
  margin: 0px;
 }
